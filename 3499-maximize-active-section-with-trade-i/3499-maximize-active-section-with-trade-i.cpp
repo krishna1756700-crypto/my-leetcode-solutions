@@ -6,11 +6,11 @@ public:
         int prevc=0;
         int maxi=0;
         int ans=0;
-        bool temp=true;
+        
         for(int i=0;i<n;){
             if(s[i]=='1'){
-                if(count+prevc>maxi)maxi=count+prevc;
-                if(prevc!=0&&count!=0)temp=false;
+                if(prevc!=0&&count+prevc>maxi)maxi=count+prevc;
+               
                 prevc=count;
                 count=0;
                 while(i<n&&s[i]=='1'){
@@ -25,9 +25,9 @@ public:
                 }
             }
         }
-        if(count+prevc>maxi)maxi=count+prevc;
-        if(prevc!=0&&count!=0)temp=false;
-        if(temp)return ans;
+        if(prevc!=0&&count!=0&&count+prevc>maxi)maxi=count+prevc;
+        
+      
         return ans+maxi;
 
     }
