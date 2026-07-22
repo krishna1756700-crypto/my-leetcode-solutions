@@ -1,33 +1,29 @@
 class Solution {
 public:
     int maxActiveSectionsAfterTrade(string s) {
-        int n=s.size();
-        int count=0;
-        int prevc=0;
+        int prev=0;
+        int curr=0;
         int maxi=0;
         int ans=0;
-        
+        int n=s.size();
         for(int i=0;i<n;){
             if(s[i]=='1'){
-                if(prevc!=0&&count+prevc>maxi)maxi=count+prevc;
-               
-                prevc=count;
-                count=0;
                 while(i<n&&s[i]=='1'){
                     ans++;
                     i++;
                 }
+                if(prev&&curr&&prev+curr>maxi)maxi=prev+curr;
+                prev=curr;
+                curr=0;
             }
             else{
                 while(i<n&&s[i]=='0'){
-                    count++;
+                    curr++;
                     i++;
                 }
             }
         }
-        if(prevc!=0&&count!=0&&count+prevc>maxi)maxi=count+prevc;
-        
-      
+        if(prev&&curr&&prev+curr>maxi)maxi=prev+curr;
         return ans+maxi;
 
     }
