@@ -36,4 +36,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
