@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0040-combination-sum-ii) |
+| [0078-subsets](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0078-subsets) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0875-koko-eating-bananas](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0875-koko-eating-bananas) |
@@ -60,8 +61,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0040-combination-sum-ii) |
+| [0078-subsets](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0078-subsets) |
 ## Bracket Sequences
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0022-generate-parentheses) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
