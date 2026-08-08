@@ -1,26 +1,24 @@
 class Solution {
 public:
-    void gen(int z,long long sum,vector<int>&candidates,vector<int>curr,int target,vector<vector<int>>&ans){
-        if(sum>target){
-            return ;
-        }
-        else if(sum==target){
+    void anss(vector<vector<int>>&ans,int target,vector<int>&candidates,int index,vector<int>curr){
+        int n=candidates.size();
+        if(target==0){
             ans.push_back(curr);
             return;
         }
-        int n=candidates.size();
-        for(int i=z;i<n;i++){
-            if(sum+candidates[i]<=target){
-                curr.push_back(candidates[i]);
-               gen(i,sum+candidates[i],candidates,curr,target,ans); 
-               curr.pop_back();
-            }
+        if(index>=n||target<0)return;
+        if(target-candidates[index]>=0){
+        curr.push_back(candidates[index]);
+        anss(ans,target-candidates[index],candidates,index,curr);
+        curr.pop_back();
         }
+        anss(ans,target,candidates,index+1,curr);
     }
+
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        int n=candidates.size();
         vector<vector<int>>ans;
-        vector<int>curr={};
-        gen(0,0,candidates,curr,target,ans);
+        anss(ans,target,candidates,0,{});
         return ans;
     }
 };
