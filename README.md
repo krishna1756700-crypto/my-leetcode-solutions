@@ -46,11 +46,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0231-power-of-two) |
 | [1922-count-good-numbers](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1922-count-good-numbers) |
 ## Recursion
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0050-powx-n) |
+| [0231-power-of-two](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0231-power-of-two) |
 | [1922-count-good-numbers](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1922-count-good-numbers) |
 ## Dynamic Programming
 |  |
@@ -73,4 +75,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0090-subsets-ii) |
+| [0231-power-of-two](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
