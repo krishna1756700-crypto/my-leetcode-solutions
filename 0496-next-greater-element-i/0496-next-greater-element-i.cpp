@@ -4,7 +4,7 @@ public:
         int n2=nums2.size();
         int n1=nums1.size();
         unordered_map<int,int>m;
-        vector<int>ans;
+        
         stack<int>st;
         for(int i=n2-1;i>=0;i--){
             if(st.empty()){
@@ -32,8 +32,8 @@ public:
             }
         }
         for(int i=0;i<n1;i++){
-            ans.push_back(m[nums1[i]]);
+            nums1[i]=(m[nums1[i]]);
         }
-        return ans;
+        return nums1;
     }
 };
