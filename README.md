@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0231-power-of-two) |
+| [0234-palindrome-linked-list](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [1922-count-good-numbers](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1922-count-good-numbers) |
 ## Dynamic Programming
 |  |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0232-implement-queue-using-stacks) |
+| [0234-palindrome-linked-list](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 ## Simulation
@@ -125,12 +127,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
+| [0234-palindrome-linked-list](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0876-middle-of-the-linked-list) |
 ## Floyd's Cycle Finding Algorithm
 |  |
