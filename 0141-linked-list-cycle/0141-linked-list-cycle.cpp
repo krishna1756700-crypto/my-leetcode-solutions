@@ -6,13 +6,19 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+ typedef ListNode nn;
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-        while(head!=NULL){
-            if(head->val==1000000)return true;
-            head->val=1000000;
-            head=head->next;
+        nn*fast=head;
+        nn*slow=head;
+        while(fast!=NULL&&fast->next!=NULL){
+            fast=fast->next;
+            fast=fast->next;
+            
+            slow=slow->next;
+            if(fast==slow)return true;
+            
         }
         return false;
     }
