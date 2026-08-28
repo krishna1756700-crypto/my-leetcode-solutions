@@ -18,19 +18,11 @@ public:
             if(fast==slow)break;
         }
         if(fast==nullptr||fast->next==nullptr)return NULL;
-    nn*ans=head;
-    if(ans==fast)return ans;
-
-
-    while(ans!=nullptr){
-        nn*temp=fast->next;
-        while(temp!=fast){
-            if(ans==temp)return ans;
-            temp=temp->next;
+        slow=head;
+        while(slow!=fast){
+            fast=fast->next;
+            slow=slow->next;
         }
-        if(ans==temp)return ans;
-        ans=ans->next;
-    }
-    return NULL;
+        return fast;
     }
 };
