@@ -12,28 +12,21 @@
 class Solution {
 public:
 
-    int height(TreeNode*root){
-        if(root==nullptr)return 0;
-        int hl=height(root->left);
-        int hr=height(root->right);
-        return 1+max(hl,hr);
-    }
-
-    void print(TreeNode*root,int n,vector<int>&ans){
-        if(root==nullptr)return;
-        if(n==1){
-            ans.push_back(root->val);
-            return;
-        }
-        print(root->left,n-1,ans);
-        print(root->right,n-1,ans);
-    }
+  
     vector<vector<int>> levelOrder(TreeNode* root) {
-        int h=height(root);
-        vector<vector<int>>anss;
-        for(int i=1;i<=h;i++){
+        if(root==nullptr)return {};
+          vector<vector<int>>anss;
+          queue<TreeNode*>q;
+        q.push(root);
+        while(q.size()!=0){
+            int n=q.size();
             vector<int>ans;
-            print(root,i,ans);
+            for(int i=1;i<=n;i++){
+                if(q.front()->left!=nullptr)q.push(q.front()->left);
+                if(q.front()->right!=nullptr)q.push(q.front()->right);
+                ans.push_back(q.front()->val);
+                q.pop();
+            }
             anss.push_back(ans);
         }
         return anss;
