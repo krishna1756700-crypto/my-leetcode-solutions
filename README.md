@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
 | [0402-remove-k-digits](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0402-remove-k-digits) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Bit Manipulation
 |  |
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0907-sum-of-subarray-minimums) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2104-sum-of-subarray-ranges](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 ## Simulation
