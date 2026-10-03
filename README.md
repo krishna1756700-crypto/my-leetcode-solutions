@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
+| [0091-decode-ways](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0091-decode-ways) |
 | [0402-remove-k-digits](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0402-remove-k-digits) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0032-longest-valid-parentheses) |
+| [0091-decode-ways](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0091-decode-ways) |
 | [0907-sum-of-subarray-minimums](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0907-sum-of-subarray-minimums) |
 ## Backtracking
 |  |
