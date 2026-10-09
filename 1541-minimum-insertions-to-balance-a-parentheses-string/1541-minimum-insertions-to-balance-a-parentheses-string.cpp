@@ -2,25 +2,25 @@ class Solution {
 public:
     int minInsertions(string s) {
         int n=s.size();
-        stack<char>st;
+        int open=0;
         int count=0;
         for(int i=0;i<n;i++){
-            if(s[i]=='(')st.push(s[i]);
+            if(s[i]=='(')open++;
             else{
                 
-                if(st.empty())count++;
+                if(open==0)count++;
                 else{
-                    st.pop();
+                    open--;
                 }
                 if(i==n-1)count++;
                 else if(s[i+1]=='('){
                     count++;
-                    st.push('(');
+                    open++;
                 }
                 i++;
             }
         }
-        count+=2*st.size();
+        count+=2*open;
         return count;
     }
 };
