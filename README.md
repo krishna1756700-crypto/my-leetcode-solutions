@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [2104-sum-of-subarray-ranges](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/2778-sum-of-squares-of-special-elements) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Binary Search
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0231-power-of-two) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 ## Stack
 |  |
 | ------- |
@@ -166,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0496-next-greater-element-i](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0496-next-greater-element-i) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -259,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## DP on Trees
 |  |
