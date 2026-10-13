@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2104-sum-of-subarray-ranges](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/2104-sum-of-subarray-ranges) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/2778-sum-of-squares-of-special-elements) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3069-distribute-elements-into-two-arrays-i) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Binary Search
 |  |
 | ------- |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Counting Sort
 |  |
 | ------- |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/krishna1756700-crypto/my-leetcode-solutions/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## DP on Trees
 |  |
 | ------- |
