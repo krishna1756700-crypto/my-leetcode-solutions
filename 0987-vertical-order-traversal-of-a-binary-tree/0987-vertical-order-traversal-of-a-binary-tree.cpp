@@ -11,25 +11,27 @@
  */
 class Solution {
 public:
-    void anss(map<int,map<int,multiset<int>>>&ans,TreeNode*root,int col,int row){
+    void anss(vector<tuple<int,int,int>>&ans,TreeNode*root,int col,int row){
         if(root==nullptr)return;
-        ans[col][row].insert(root->val);
+        ans.push_back({col,row,root->val});
         anss(ans,root->left,col-1,row+1);
         anss(ans,root->right,col+1,row+1);
     }
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        map<int,map<int,multiset<int>>>ans;
-        anss(ans,root,0,0);
-        vector<vector<int>>v;
-        for(auto p:ans){
-            vector<int>x;
-            for(auto c:p.second){
-                for(auto xx:c.second){
-                    x.push_back(xx);
-                }
+        vector<tuple<int,int,int>>v;
+        anss(v,root,0,0);
+        vector<vector<int>>a;
+        sort(v.begin(),v.end());
+        int prevcol=INT_MIN;
+        for(auto [cc,rr,vv]:v){
+            if(cc!=prevcol){
+                a.push_back({vv});
+                prevcol=cc;
             }
-            v.push_back(x);
+            else{
+                a.back().push_back(vv);
+            }
         }
-        return v;
+        return a;
     }
 };
