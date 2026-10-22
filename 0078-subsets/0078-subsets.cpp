@@ -1,21 +1,16 @@
 class Solution {
 public:
-    void anss(vector<vector<int>>&ans,int in,vector<int>&nums,vector<int>&curr){
-        int n=nums.size();
-        if(in>=n)return;
-        curr.push_back(nums[in]);
-        ans.push_back(curr);
-        anss(ans,in+1,nums,curr);
-        curr.pop_back();
-        anss(ans,in+1,nums,curr);
-
-    }
     vector<vector<int>> subsets(vector<int>& nums) {
-       vector<vector<int>>ans;
-       vector<int>curr;
-       anss(ans,0,nums,curr);
-       ans.push_back({});
-       return ans;
-
+        int n=nums.size();
+        int p=1<<n;
+        vector<vector<int>>ans={};
+        for(int i=0;i<p;i++){
+            vector<int>a;
+            for(int j=0;j<n;j++){
+                if(i>>j&1)a.push_back(nums[j]);
+            }
+            ans.push_back(a);
+        }
+        return ans;
     }
 };
