@@ -9,35 +9,21 @@
  */
 class Solution {
 public:
-    TreeNode* ans(TreeNode*root,TreeNode*target,vector<TreeNode*>&an){
-        if(root==nullptr)return root;
-        if(root==target){
-            an.push_back(root);
-            return root;
-        }
-        if(ans(root->left,target,an)!=nullptr){
-            an.push_back(root);
-            return target;
-        }
-        if(ans(root->right,target,an)!=nullptr){
-            an.push_back(root);
-            return target;
-        }
-        return nullptr;
-        
 
-        
+    TreeNode* ans(TreeNode*root,TreeNode*p,TreeNode*q){
+        if(root==nullptr)return nullptr;
+       if(root==p||root==q)return root;
+        TreeNode*left=ans(root->left,p,q);
+        TreeNode*right=ans(root->right,p,q);
+        if(left!=nullptr&&right!=nullptr)return root;
+        if(left!=nullptr)return left;
+        if(right!=nullptr)return right;
+        return nullptr;
     }
+
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        vector<TreeNode*>a;
-        vector<TreeNode*>b;
-        TreeNode* t=ans(root,p,a);
-        TreeNode* t2=ans(root,q,b);
-        int i=a.size()-1;
-        int j=b.size()-1;
-        while(i>=0&&j>=0&&a[i]==b[j]){
-            i--;j--;
-        }
-        return a[i+1];
+        TreeNode*an=nullptr;
+        TreeNode*temp=ans(root,p,q);
+        return temp;
     }
 };
