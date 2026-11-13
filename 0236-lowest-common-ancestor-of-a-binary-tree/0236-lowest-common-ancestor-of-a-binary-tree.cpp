@@ -9,21 +9,21 @@
  */
 class Solution {
 public:
-
-    TreeNode* ans(TreeNode*root,TreeNode*p,TreeNode*q){
-        if(root==nullptr)return nullptr;
-       if(root==p||root==q)return root;
-        TreeNode*left=ans(root->left,p,q);
-        TreeNode*right=ans(root->right,p,q);
-        if(left!=nullptr&&right!=nullptr)return root;
-        if(left!=nullptr)return left;
-        if(right!=nullptr)return right;
-        return nullptr;
+    int ans(TreeNode*root,TreeNode*p,TreeNode*q,TreeNode*&an){
+        if(root==nullptr)return 0;
+        int score=0;
+        score+=ans(root->left,p,q,an);
+        score+=ans(root->right,p,q,an);
+        if(root==p||root==q)score++;
+        if(score==2&&an==nullptr){
+            an=root;
+        }
+        return score;
+        
     }
-
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         TreeNode*an=nullptr;
-        TreeNode*temp=ans(root,p,q);
-        return temp;
+        int x=ans(root,p,q,an);
+        return an;
     }
 };
