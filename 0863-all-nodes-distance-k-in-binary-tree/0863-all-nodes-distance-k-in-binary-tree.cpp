@@ -9,40 +9,50 @@
  */
 class Solution {
 public:
-    void an(TreeNode*root,int k,vector<int>&ans,TreeNode*target){
-        if(root==nullptr)return;
+    void an(vector<int>&ans,TreeNode*root,unordered_map<TreeNode*,TreeNode*>&m,int k,unordered_map<TreeNode*,bool>&visited){
+        if(root==nullptr)return ;
+        visited[root]=true;
         if(k==0){
-            ans.push_back(root->val);return ;
-        }
-        if(k<0)return;
-        if(root->left!=target)an(root->left,k-1,ans,target);
-        if(root->right!=target)an(root->right,k-1,ans,target);
-    }
-    TreeNode*path(TreeNode*root,TreeNode*target,vector<TreeNode*>&pathh){
-        if(root==nullptr)return nullptr;
-        if(root==target){
-            pathh.push_back(root);return root;
-        }
-        if(path(root->left,target,pathh)!=nullptr){
-            pathh.push_back(root);
-            return root;
-        }
-        if(path(root->right,target,pathh)!=nullptr){
-            pathh.push_back(root);
-            return root;
-        }
-        return nullptr;
+            ans.push_back(root->val);return;}
+            if(k<0)return;
+            if(visited.count(root->left)==0)
+            an(ans,root->left,m,k-1,visited);
+             if(visited.count(root->right)==0)
+            an(ans,root->right,m,k-1,visited);
+            if(m.count(root)&&visited.count(m[root])==0){
+                an(ans,m[root],m,k-1,visited);
+            }
+
     }
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        vector<int>ans;
-        vector<TreeNode*>pathh;
-        TreeNode*temp=path(root,target,pathh);
-        int n=pathh.size();
-        an(target,k,ans,target);
-        for(int i=1;i<n;i++){
-            an(pathh[i],k-i,ans,pathh[i-1]);
+        unordered_map<TreeNode*,TreeNode*>m;
+        queue<TreeNode*>q;
+        q.push(root);
+        while(!q.empty()){
+            int n=q.size();
+            for(int i=0;i<n;i++){
+                TreeNode*temp=q.front();
+                q.pop();
+                if(temp->left!=nullptr){
+                    q.push(temp->left);
+                    m[temp->left]=temp;
+                }
+                if(temp->right!=nullptr){
+                    q.push(temp->right);
+                    m[temp->right]=temp;
+                }
+            }
+
         }
+        unordered_map<TreeNode*,bool>visited;
+        vector<int>ans;
+        an(ans,target,m,k,visited);
         return ans;
+
+
+
+
+
 
 
 
